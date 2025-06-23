@@ -162,11 +162,11 @@ class Game:
         dx, dy = 0, 0
         if direction == "w":
             dy = -1
-        elif direction == "d":
-            dy = 1
         elif direction == "s":
-            dx = -1
+            dy = 1
         elif direction == "a":
+            dx = -1
+        elif direction == "d":
             dx = 1
 
         new_x = self.player_x + dx
