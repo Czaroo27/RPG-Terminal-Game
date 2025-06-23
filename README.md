@@ -1,11 +1,8 @@
-Pewnie! Oto kompletne **README.md** w czystym Markdownie — możesz je od razu skopiować do pliku `README.md` w swoim projekcie:
-
-````markdown
-🧙‍♂️ Text-Based RPG Game
+# 🧙‍♂️ Text-Based RPG Game
 
 A simple terminal-based RPG game written in Python. Explore a randomly generated map, fight enemies, collect treasures, level up, and manage your inventory.
 
-🎮 Features
+## 🎮 Features
 
 - 💾 Save & Load system (`rpg_save.json`)
 - 🗺️ Randomly generated 10x10 map
@@ -15,18 +12,17 @@ A simple terminal-based RPG game written in Python. Explore a randomly generated
 - ⬆️ Leveling system with stat growth
 - 🎲 Random events and encounters
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Requirements
+### Requirements
 
 - Python 3.x
 
-Running the Game
+### Running the Game
 
 ```bash
-python your_script_name.py
+python main.py
 ```
-````
 
 ### Menu
 
